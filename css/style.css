@@ -131,7 +131,7 @@ img {
     body {
         font-family: 'Nunito Sans', sans-serif;
         color: #b8c1ec;
-        background: #8b830b;
+        background: #232946;
     }
 
     .container {
@@ -140,4 +140,41 @@ img {
         padding: 0 20px;
     }
    
+}
+
+@media screen  and (max-width: 480px) {
+    .site-header {
+        margin-top: 3rem;
+        margin-left: 10px;
+    }
+    .site-header {
+        margin-top: 3rem;
+        font-size: 60px;
+        margin-left: 50px;
+    }
+    
+    .row {
+        display: block;
+    }
+    .container {
+        max-width: 480px;
+      margin-left: 110px;
+     }
+    
+     h2 {
+        margin-bottom: 2.5rem;
+        font-size: 2rem;
+        color: #fffffe;
+        margin-right: 140px;
+    }
+    .why-us {
+        margin-bottom: 3rem;
+        background-color: black;
+    }
+    .steps {
+    margin: 3rem 0;
+    padding: 3rem 0;
+    color: #232946;
+    background: #eebbc3;
+}
 }
